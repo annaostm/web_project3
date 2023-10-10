@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for SearchBar 1`] = `
+<div
+  className="search-filter-grid"
+>
+  <div
+    className="content"
+  >
+    <div
+      className="title"
+    >
+      <p>
+        Search for 
+        movies
+      </p>
+    </div>
+    <div
+      className="search-bar-field"
+    >
+      <input
+        aria-label="Search bar"
+        className="search-bar"
+        data-cy="search"
+        onChange={[Function]}
+        placeholder="Search for entertainment..."
+        type="text"
+        value=""
+      />
+      <div
+        className="filter_buttons"
+      >
+        <div
+          className="filter"
+        >
+          <div
+            className="MuiFormControl-root css-1onkz90-MuiFormControl-root"
+          >
+            <label
+              className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-9f75lj-MuiFormLabel-root-MuiInputLabel-root"
+              data-shrink={false}
+              id="demo-simple-select-helper-label"
+            >
+              Filter
+            </label>
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1vt7zlm-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+              data-cy="filter-menu"
+              onClick={[Function]}
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="demo-simple-select-helper-label demo-simple-select-helper"
+                className="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                id="demo-simple-select-helper"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                <span
+                  className="notranslate"
+                >
+                  ​
+                </span>
+              </div>
+              <input
+                aria-hidden={true}
+                className="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                disabled={false}
+                onAnimationStart={[Function]}
+                onChange={[Function]}
+                required={false}
+                tabIndex={-1}
+                value=""
+              />
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden={true}
+                className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  className="css-yjsfm1"
+                >
+                  <span>
+                    filter
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          className="filter"
+        >
+          <div
+            className="MuiFormControl-root css-1onkz90-MuiFormControl-root"
+          >
+            <label
+              className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-9f75lj-MuiFormLabel-root-MuiInputLabel-root"
+              data-shrink={false}
+              id="demo-simple-select-helper-label"
+            >
+              Sort by
+            </label>
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1vt7zlm-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+              data-cy="filter-menu"
+              onClick={[Function]}
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="demo-simple-select-helper-label demo-simple-select-helper"
+                className="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                id="demo-simple-select-helper"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                <span
+                  className="notranslate"
+                >
+                  ​
+                </span>
+              </div>
+              <input
+                aria-hidden={true}
+                className="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                disabled={false}
+                onAnimationStart={[Function]}
+                onChange={[Function]}
+                required={false}
+                tabIndex={-1}
+                value=""
+              />
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden={true}
+                className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  className="css-yjsfm1"
+                >
+                  <span>
+                    filter
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      className="wait-text"
+    >
+      Loading...
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+{
+    "links": [{
+            "label": "Home",
+            "href": "/home"
+
+        },
+        {
+            "label": "Movies",
+            "href": "/movies"
+
+
+        },
+        {
+            "label": "Series",
+            "href": "/series"
+
+
+        }
+    ]
+}

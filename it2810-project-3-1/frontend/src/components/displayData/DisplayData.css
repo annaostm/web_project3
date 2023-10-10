@@ -1,0 +1,76 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.netflix-cards {
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(230px, 1fr));
+    grid-gap: 30px;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding-bottom: 40px;
+}
+
+.content-text {
+    font-size: 18px !important;
+}
+
+.wait-text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.button {
+    font-weight: 700 !important;
+}
+
+.filter_buttons {
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.link2 {
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: black;
+    size: 12px;
+}
+
+.link2:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 1200px) {
+    .netflix-cards {
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .netflix-cards {
+        place-items: center;
+        grid-template-columns: repeat(2, minmax(230px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .netflix-cards {
+        place-items: center;
+        grid-template-columns: repeat(1, minmax(230px, 1fr));
+    }
+    .MuiToolbar-root {
+        flex-direction: column;
+    }
+}
+

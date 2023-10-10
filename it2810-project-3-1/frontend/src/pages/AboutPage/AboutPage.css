@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
+.extra-info {
+    margin-inline: 100px;
+    max-width: 600px;
+    line-height: 30px;
+}
+
+.poster {
+    margin: auto;
+    align-self: center;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.movie-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.movie-description {
+    font-size: 18px;
+}
+
+.subcategory-titles {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #c50808;
+}
+
+.year-duration-box {
+    display: inline-flex;
+    padding: 3px;
+    color: white;
+}
+
+.ratings {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color: #ccc;
+    overflow: hidden;
+}
+
+.full-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(255, 0, 0);
+}
+
+.empty-stars:before,
+.full-stars:before {
+    content: "\2605\2605\2605\2605\2605";
+    font-size: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rate {
+    height: 46px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: #ff0000;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #de1717;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+    color: #c50808;
+}
+
+.about-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 5px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.input-review {
+    border-color: #c50808;
+}
+
+.rate-review {
+    display: center;
+    text-align: center;
+    margin-inline: 100px;
+    margin-top: 20px;
+}
+
+.submit-button {
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 8px;
+    font-weight: 700;
+}
+
+.submit-button:hover {
+    background-color: #ccc;
+    color: red;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        padding: 5px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .movie-title {
+        line-height: 50px;
+    }
+    .extra-info {
+        margin: 0;
+    }
+    .rate-review {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        padding: 5px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .movie-description {
+        width: 300px;
+    }
+    .rate-review {
+        width: 300px;
+    }
+    .input-review {
+        width: 300px;
+    }
+}
+
+textarea {
+    padding: 10px;
+    font-family: Roboto;
+}
+
+.wait-text {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
